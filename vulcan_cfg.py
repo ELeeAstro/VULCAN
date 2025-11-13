@@ -3,12 +3,12 @@
 # ============================================================================= 
 
 # ====== Setting up the elements included in the network ======
-atom_list = ['H', 'O', 'C', 'N',  'S']
+atom_list = ['H', 'O', 'C', 'N',  'He']
 # ====== Setting up paths and filenames for the input and output files  ======
 # input:
 #network = 'thermo/SNCHO_full_photo_network.txt'
 
-network = 'thermo/SNCHO_full_photo_network_2025.txt'
+network = 'thermo/NCHO_photo_network.txt'
 use_lowT_limit_rates = False
 gibbs_text = 'thermo/gibbs_text.txt' # (all the nasa9 files must be placed in the folder: thermo/NASA9/)
 cross_folder = 'thermo/photo_cross/'
